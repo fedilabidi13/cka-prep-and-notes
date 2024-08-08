@@ -29,3 +29,12 @@ kubectl describe ingress --namespace app-space
  kubectl get deploy ingress-nginx-controller -n ingress-nginx -o yaml
  ```
  In the manifest, search for the argument ```--default-backend-service```
+
+* Pod cidr 
+```sh
+cat /etc/kubernetes/manifests/kube-controller-manager.yaml | grep cluster-cidr
+```
+* Service cidr 
+```sh
+cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep cluster-cidr
+```
