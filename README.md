@@ -12,3 +12,9 @@ Run the command:
 kubectl get service -n kube-system
 ``` 
 and look for cluster IP value.
+
+* Cluster domain name: 
+can be found through this command: 
+```sh
+kubectl describe configmap coredns -n kube-system
+```
