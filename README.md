@@ -38,3 +38,7 @@ cat /etc/kubernetes/manifests/kube-controller-manager.yaml | grep cluster-cidr
 ```sh
 cat /etc/kubernetes/manifests/kube-apiserver.yaml
 ```
+* Download a file using curl: 
+```sh
+curl -LO https://file.yml
+```
