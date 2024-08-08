@@ -36,5 +36,5 @@ cat /etc/kubernetes/manifests/kube-controller-manager.yaml | grep cluster-cidr
 ```
 * Service cidr 
 ```sh
-cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep cluster-cidr
+cat /etc/kubernetes/manifests/kube-apiserver.yaml
 ```
