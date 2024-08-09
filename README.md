@@ -42,3 +42,4 @@ cat /etc/kubernetes/manifests/kube-apiserver.yaml
 ```sh
 curl -LO https://file.yml
 ```
+jdkljgldfj
